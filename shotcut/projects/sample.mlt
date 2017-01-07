@@ -4,19 +4,16 @@
   <playlist id="main bin">
     <property name="xml_retain">1</property>
   </playlist>
-  <producer id="black" in="00:00:00.000" out="00:00:30.000">
-    <property name="length">00:00:30.040</property>
+  <producer id="black" in="00:00:00.000" out="00:00:20.000">
+    <property name="length">00:00:20.040</property>
     <property name="eof">pause</property>
     <property name="resource">black</property>
     <property name="aspect_ratio">1</property>
     <property name="mlt_service">color</property>
     <property name="set.test_audio">0</property>
-    <property name="movit.convert.width">1920</property>
-    <property name="movit.convert.height">1080</property>
-    <property name="movit.convert.format">1</property>
   </producer>
   <playlist id="background">
-    <entry producer="black" in="00:00:00.000" out="00:00:30.000"/>
+    <entry producer="black" in="00:00:00.000" out="00:00:20.000"/>
   </playlist>
   <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:09:59.960">
     <property name="length">00:10:00.000</property>
@@ -33,11 +30,12 @@
     <property name="movit.convert.width">1920</property>
     <property name="movit.convert.height">1080</property>
     <property name="movit.convert.format">1</property>
-    <filter id="filter0" out="00:00:09.960">
+    <filter id="filter0" title="Sample video title" out="00:00:09.960">
       <property name="mlt_service">webvfx</property>
-      <property name="disable">0</property>
-      <property name="resource">../title_card.html</property>
+      <property name="shotcut:filter">webvfxKappaFpvTitleCard</property>
       <property name="factory">loader</property>
+      <property name="resource">C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_title/title_card.html</property>
+      <property name="title_width">500</property>
     </filter>
   </producer>
   <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:09:59.960">
@@ -60,15 +58,15 @@
     <property name="shotcut:video">1</property>
     <property name="shotcut:name">V1</property>
     <entry producer="producer0" in="00:00:00.000" out="00:00:09.960"/>
-    <entry producer="producer1" in="00:00:10.000" out="00:00:30.000"/>
-    <filter id="filter1" out="00:00:30.000">
+    <entry producer="producer1" in="00:00:10.000" out="00:00:20.000"/>
+    <filter id="filter1" out="00:00:20.000">
       <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvWatermark</property>
+      <property name="resource">plain:C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_watermark/watermark.html</property>
       <property name="factory">loader</property>
-      <property name="disable">0</property>
-      <property name="resource">plain:../watermark.html</property>
     </filter>
   </playlist>
-  <tractor id="tractor0" title="Shotcut version 16.11.02" global_feed="1" in="00:00:00.000" out="00:00:30.000">
+  <tractor id="tractor0" title="Shotcut version 16.11.02" global_feed="1" in="00:00:00.000" out="00:00:20.000">
     <property name="shotcut">1</property>
     <track producer="background"/>
     <track producer="playlist0"/>

@@ -6,13 +6,16 @@ function clamped_map(value, in_low, in_high, out_low, out_high) {
   return (((value - in_low) * (out_high - out_low)) / (in_high - in_low)) + out_low;
 }
 
-function Transition(logoDiv, titleDiv) {
+function TitleCard(logoDiv, titleDiv) {
   this.logoDiv = logoDiv;
   this.titleDiv = titleDiv;
-  // titleDiv.getElementsByTagName("p")[0].innerText = webvfx.getStringParameter('title');
+  this.titleText = titleDiv.getElementsByTagName("p")[0]
 }
 
-Transition.prototype.render = function (time) {
+TitleCard.prototype.render = function (time) {
+  this.titleText.innerText = webvfx.getStringParameter('title');
+  this.titleDiv.style.width = webvfx.getNumberParameter('title_width') + "px";
+  
   var titleOpacity = clamped_map(time, 0.8, 1, 1, 0);
 
   this.logoDiv.style.borderRightColor = "rgba(157, 151, 217, " + titleOpacity + ")";
@@ -23,8 +26,8 @@ Transition.prototype.render = function (time) {
 }
 
 function onLoad() {
-  var transition = new Transition(document.getElementById("logo"), document.getElementById("video_title"));
-  webvfx.renderRequested.connect(transition, Transition.prototype.render);
+  var title = new TitleCard(document.getElementById("logo"), document.getElementById("video_title"));
+  webvfx.renderRequested.connect(title, TitleCard.prototype.render);
   webvfx.readyRender(true)
 }
 
