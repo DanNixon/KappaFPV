@@ -1,0 +1,45 @@
+.watermark {
+  opacity: 0.7;
+}
+
+body {
+  font-family: 'Audiowide', sans-serif, narrow;
+}
+
+body div {
+  float: left;
+}
+
+p {
+  margin: 0;
+  color: rgb(85,81,130);
+  text-shadow: 0 0 4px white;
+}
+
+#container {
+  position: absolute;
+  left: 10px;
+  bottom: 40px;
+}
+
+#logo {
+  text-align: center;
+  border-right: medium dotted rgb(157,151,217);
+  margin-right: 40px;
+  width: 300px;
+  font-size: 2.2em;
+}
+
+#logo > img {
+  width: 75%;
+}
+
+#video_title {
+  width: 500px;
+  position: relative;
+  top: 10px;
+}
+
+#video_title > p {
+  font-size: 3.5em;
+}
