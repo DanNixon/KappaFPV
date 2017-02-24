@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_GB" version="6.5.0" title="Shotcut version 17.01.02" producer="main bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:01:49.467">
+    <property name="length">00:01:49.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:01:49.467"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:02:10.800">
+    <property name="length">00:02:10.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">//campus/home/home23/b2026369/My Videos/PICT0079.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">6073057ad0cecb4aa2f805242c3783da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0079.AVI</property>
+    <property name="shotcut:detail">//campus/home/home23/b2026369/My Videos/PICT0079.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" title="MS2 Micro Track Improvements" in="00:00:08.267" out="00:00:14.233">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvTitleCard</property>
+      <property name="resource">C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_title/title_card.html</property>
+      <property name="title_width">700</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:02:10.800">
+    <property name="length">00:02:10.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">//campus/home/home23/b2026369/My Videos/PICT0079.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">6073057ad0cecb4aa2f805242c3783da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0079.AVI</property>
+    <property name="shotcut:detail">//campus/home/home23/b2026369/My Videos/PICT0079.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:02:10.800">
+    <property name="length">00:02:10.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">//campus/home/home23/b2026369/My Videos/PICT0079.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">6073057ad0cecb4aa2f805242c3783da</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0079.AVI</property>
+    <property name="shotcut:detail">//campus/home/home23/b2026369/My Videos/PICT0079.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" in="00:01:55.767" out="00:01:57.733">
+      <property name="start">1</property>
+      <property name="level">0=1; 59=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+    </filter>
+    <filter id="filter2">
+      <property name="argument">1:28</property>
+      <property name="geometry">0.78%/0.00%:9.38%x9.26%</property>
+      <property name="family">Audiowide</property>
+      <property name="size">100</property>
+      <property name="weight">500</property>
+      <property name="style">normal</property>
+      <property name="fgcolour">#6d6895</property>
+      <property name="bgcolour">#00000000</property>
+      <property name="olcolour">#5d587f</property>
+      <property name="pad">0</property>
+      <property name="halign">center</property>
+      <property name="valign">top</property>
+      <property name="outline">0</property>
+      <property name="mlt_service">dynamictext</property>
+      <property name="shotcut:filter">dynamicText</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:08.267" out="00:00:14.233"/>
+    <entry producer="producer1" in="00:00:14.267" out="00:01:42.400"/>
+    <entry producer="producer2" in="00:01:42.433" out="00:01:57.733"/>
+    <filter id="filter3" out="00:01:49.467">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvWatermark</property>
+      <property name="resource">plain:C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_watermark/watermark.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </playlist>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:03:11.967">
+    <property name="length">00:03:12.000</property>
+    <property name="eof">pause</property>
+    <property name="resource">//campus/home/home23/b2026369/My Videos/ten_faced.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">e607137eb0fb093e00225ce8540e3b8e</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">ten_faced.mp3</property>
+    <property name="shotcut:detail">//campus/home/home23/b2026369/My Videos/ten_faced.mp3</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter4" in="00:03:11.000" out="00:03:11.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="gain">1</property>
+      <property name="end">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:00.267"/>
+    <entry producer="producer3" in="00:01:22.767" out="00:03:11.967"/>
+    <filter id="filter5">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="gain">0.707946</property>
+    </filter>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 17.01.02" global_feed="1" in="00:00:00.000" out="00:01:49.467">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.46113</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="audio"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
