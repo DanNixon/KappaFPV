@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="English_United Kingdom.1252" version="6.5.0" title="Shotcut version 17.03.02" producer="main bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:03:53.900">
+    <property name="length">00:03:53.933</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:03:53.900"/>
+  </playlist>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:03:26.633">
+    <property name="length">00:03:26.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/fatshark_05032017/PICT0053.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">99764611c3790f29741d84c8ec97caa5</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0053.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/fatshark_05032017/PICT0053.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+    <filter id="filter0" title="Back to the trees" in="00:00:06.300" out="00:00:14.267">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvTitleCard</property>
+      <property name="resource">C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_title/title_card.html</property>
+      <property name="title_width">500</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:03:26.633">
+    <property name="length">00:03:26.667</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/fatshark_05032017/PICT0053.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">99764611c3790f29741d84c8ec97caa5</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0053.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/fatshark_05032017/PICT0053.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <producer id="producer1" title="Shotcut version 16.11.02" in="00:00:00.000" out="00:02:41.600">
+    <property name="length">00:02:41.633</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/fatshark_05032017/PICT0048.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">03706773b0dbca7c12259952ce327276</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0048.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/fatshark_05032017/PICT0048.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+    <filter id="filter1" in="00:02:39.267" out="00:02:40.233">
+      <property name="opacity">0~=1; 29=0</property>
+      <property name="alpha">1</property>
+      <property name="mlt_service">movit.opacity</property>
+      <property name="shotcut:filter">fadeOutMovit</property>
+    </filter>
+    <filter id="filter2" in="00:02:39.267" out="00:02:40.233">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="gain">1</property>
+      <property name="end">0</property>
+    </filter>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:01.200">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer2" in="00:02:54.600" out="00:02:55.800"/>
+    <track producer="producer1" in="00:01:34.667" out="00:01:35.867"/>
+    <transition id="transition0" out="00:00:01.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.luma_mix</property>
+    </transition>
+    <transition id="transition1" out="00:00:01.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <property name="shotcut:lock">0</property>
+    <entry producer="producer2" in="00:00:06.300" out="00:00:14.267"/>
+    <entry producer="producer0" in="00:00:14.300" out="00:02:54.567"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:01.200"/>
+    <entry producer="producer1" in="00:01:35.867" out="00:02:40.233"/>
+    <filter id="filter3" out="00:06:38.200">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvWatermark</property>
+      <property name="resource">plain:C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_watermark/watermark.html</property>
+      <property name="factory">loader</property>
+    </filter>
+    <filter id="filter4">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="gain">0.562341</property>
+    </filter>
+  </playlist>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:03:57.067">
+    <property name="length">00:03:57.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/Foreground Eclipse - I Bet Youll Forget That Even If You Noticed That.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">5b68da8702110b8c2b8c1e8a7a33ce69</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Foreground Eclipse - I Bet Youll Forget That Even If You Noticed That.mp3</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/Foreground Eclipse - I Bet Youll Forget That Even If You Noticed That.mp3</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer3" in="00:00:01.100" out="00:03:54.967"/>
+  </playlist>
+  <tractor id="tractor1" title="Shotcut version 17.03.02" global_feed="1" in="00:00:00.000" out="00:03:53.900">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.593129</property>
+    <property name="shotcut:trackHeight">30</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+    </transition>
+    <transition id="transition3">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.overlay</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition4">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
