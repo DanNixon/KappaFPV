@@ -1,0 +1,5 @@
+Quick practice in the Makerspace micro quad track.
+
+Quad: LT105, Betaflight 3.1, Ladybrid props
+
+Music: Foreground Eclipse - Last Liar Standing
