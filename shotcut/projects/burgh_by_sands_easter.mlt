@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_GB" version="6.5.0" title="Shotcut version 17.03.02" producer="main bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:03:07.400">
+    <property name="length">00:03:07.433</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:03:07.400"/>
+  </playlist>
+  <producer id="producer0" title="Shotcut version 17.03.02" in="00:00:00.000" out="00:01:45.667">
+    <property name="length">00:01:45.700</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/vids_17apr/PICT0001.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f545614a688c06aff44b6471d9a8b2aa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0001.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/vids_17apr/PICT0001.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+    <filter id="filter0" title="Sunny fly around Burgh by Sands" in="00:00:13.467" out="00:00:21.433">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvTitleCard</property>
+      <property name="resource">C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_title/title_card.html</property>
+      <property name="title_width">627.572</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer1" title="Shotcut version 17.03.02" in="00:00:00.000" out="00:01:45.667">
+    <property name="length">00:01:45.700</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/vids_17apr/PICT0001.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f545614a688c06aff44b6471d9a8b2aa</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0001.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/vids_17apr/PICT0001.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:01:48.567">
+    <property name="length">00:01:48.600</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/vids_17apr/PICT0006.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f212c6f8e930c27c1127093d2fa297c4</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0006.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/vids_17apr/PICT0006.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.400">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:01:32.133" out="00:01:32.533"/>
+    <track producer="producer2" in="00:00:30.733" out="00:00:31.133"/>
+    <transition id="transition0" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.luma_mix</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.400">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.700">
+    <property name="length">00:01:53.733</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/vids_17apr/PICT0007.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a639bb55792df54182308b14846b148d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0007.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/vids_17apr/PICT0007.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <tractor id="tractor1" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.433">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer2" in="00:01:11.333" out="00:01:11.767"/>
+    <track producer="producer3" in="00:00:13.767" out="00:00:14.200"/>
+    <transition id="transition2" out="00:00:00.433">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.luma_mix</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.433">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:01:25.467">
+    <property name="length">00:01:25.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/vids_17apr/PICT0008.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">af8091cc0ba9ed4e3282b9bb62dd15c6</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0008.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/vids_17apr/PICT0008.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <tractor id="tractor2" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.433">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer3" in="00:00:42.533" out="00:00:42.967"/>
+    <track producer="producer4" in="00:00:40.900" out="00:00:41.333"/>
+    <transition id="transition4" out="00:00:00.433">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.luma_mix</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.433">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.700">
+    <property name="length">00:01:53.733</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/vids_17apr/PICT0007.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a639bb55792df54182308b14846b148d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0007.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/vids_17apr/PICT0007.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <tractor id="tractor3" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.367">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:00:56.433" out="00:00:56.800"/>
+    <track producer="producer5" in="00:00:42.300" out="00:00:42.667"/>
+    <transition id="transition6" out="00:00:00.367">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.luma_mix</property>
+    </transition>
+    <transition id="transition7" out="00:00:00.367">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:01:53.700">
+    <property name="length">00:01:53.733</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/vids_17apr/PICT0007.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">a639bb55792df54182308b14846b148d</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0007.AVI</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/vids_17apr/PICT0007.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+    <filter id="filter1" in="00:01:04.033" out="00:01:06.000">
+      <property name="opacity">0~=1; 29=0</property>
+      <property name="alpha">1</property>
+      <property name="mlt_service">movit.opacity</property>
+      <property name="shotcut:filter">fadeOutMovit</property>
+    </filter>
+    <filter id="filter2">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="gain">0.562341</property>
+    </filter>
+    <filter id="filter3" in="00:01:03.033" out="00:01:06.000">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="gain">1</property>
+      <property name="end">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:13.467" out="00:00:21.433"/>
+    <entry producer="producer1" in="00:00:21.467" out="00:01:32.100"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.400"/>
+    <entry producer="producer2" in="00:00:31.133" out="00:01:11.300"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.433"/>
+    <entry producer="producer3" in="00:00:14.200" out="00:00:42.500"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.433"/>
+    <entry producer="producer4" in="00:00:41.333" out="00:00:56.400"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.367"/>
+    <entry producer="producer5" in="00:00:42.667" out="00:00:57.367"/>
+    <entry producer="producer6" in="00:00:57.400" out="00:01:06.000"/>
+    <filter id="filter4" out="00:06:43.967">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvWatermark</property>
+      <property name="resource">plain:C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_watermark/watermark.html</property>
+      <property name="factory">loader</property>
+    </filter>
+    <filter id="filter5">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="gain">0.316228</property>
+    </filter>
+  </playlist>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:03:12.067">
+    <property name="length">00:03:12.100</property>
+    <property name="eof">pause</property>
+    <property name="resource">C:/Users/dan-n/Desktop/elect.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="shotcut:hash">8466bc1cbca7836c4a1adb1e49c97e72</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">elect.mp3</property>
+    <property name="shotcut:detail">C:/Users/dan-n/Desktop/elect.mp3</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter6" in="00:03:07.000" out="00:03:07.967">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="shotcut:filter">fadeOutVolume</property>
+      <property name="gain">1</property>
+      <property name="end">0</property>
+    </filter>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer7" in="00:00:00.567" out="00:03:07.967"/>
+  </playlist>
+  <tractor id="tractor4" title="Shotcut version 17.03.02" global_feed="1" in="00:00:00.000" out="00:03:07.400">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.253314</property>
+    <property name="shotcut:trackHeight">50</property>
+    <track producer="background"/>
+    <track producer="playlist0"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition8">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition9">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.overlay</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition10">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
