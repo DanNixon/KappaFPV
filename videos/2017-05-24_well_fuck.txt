@@ -1,0 +1,3 @@
+The smoke started soon after, completely burnt the ESC board and surrounding components.
+
+Quad: Orin (Falcon 120)
