@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_GB" version="6.5.0" title="Shotcut version 17.01.02" producer="main bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <playlist id="main bin">
+    <property name="xml_retain">1</property>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:03:54.333">
+    <property name="length">00:03:54.367</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:03:54.333"/>
+  </playlist>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:04:42.467">
+    <property name="length">00:04:42.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0003.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter0" title="Calm Eyes Fixed On Me Screaming" in="00:00:20.500" out="00:00:28.467">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvTitleCard</property>
+      <property name="resource">C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_title/title_card.html</property>
+      <property name="title_width">600</property>
+      <property name="factory">loader</property>
+    </filter>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:04:42.467">
+    <property name="length">00:04:42.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0003.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:02:44.000">
+    <property name="length">00:02:44.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0004.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0004.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0004.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor0" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.700">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer1" in="00:00:58.133" out="00:00:58.833"/>
+    <track producer="producer2" in="00:01:00.600" out="00:01:01.300"/>
+    <transition id="transition0" out="00:00:00.700">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition1" out="00:00:00.700">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:02:44.000">
+    <property name="length">00:02:44.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0004.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0004.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0004.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:02:44.000">
+    <property name="length">00:02:44.033</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0004.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0004.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0004.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:01:54.167">
+    <property name="length">00:01:54.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0005.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0005.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0005.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor1" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.667">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer4" in="00:02:33.100" out="00:02:33.767"/>
+    <track producer="producer5" in="00:00:36.467" out="00:00:37.133"/>
+    <transition id="transition2" out="00:00:00.667">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition3" out="00:00:00.667">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:01:54.167">
+    <property name="length">00:01:54.200</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0005.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0005.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0005.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor2" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.500">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer5" in="00:01:15.133" out="00:01:15.633"/>
+    <track producer="producer6" in="00:01:17.733" out="00:01:18.233"/>
+    <transition id="transition4" out="00:00:00.500">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition5" out="00:00:00.500">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:04:42.467">
+    <property name="length">00:04:42.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0003.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor3" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.300">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer6" in="00:01:46.267" out="00:01:46.567"/>
+    <track producer="producer7" in="00:02:39.067" out="00:02:39.367"/>
+    <transition id="transition6" out="00:00:00.300">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition7" out="00:00:00.300">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:04:42.467">
+    <property name="length">00:04:42.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0003.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor4" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.367">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer7" in="00:02:46.433" out="00:02:46.800"/>
+    <track producer="producer8" in="00:02:59.900" out="00:03:00.267"/>
+    <transition id="transition8" out="00:00:00.367">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition9" out="00:00:00.367">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer9" title="Anonymous Submission" in="00:00:00.000" out="00:01:08.800">
+    <property name="length">00:01:08.833</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0006.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0006.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0006.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <tractor id="tractor5" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.200">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer8" in="00:03:04.133" out="00:03:04.333"/>
+    <track producer="producer9" in="00:00:47.200" out="00:00:47.400"/>
+    <transition id="transition10" out="00:00:00.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition11" out="00:00:00.200">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <producer id="producer10" title="Anonymous Submission" in="00:00:00.000" out="00:04:42.467">
+    <property name="length">00:04:42.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">PICT0003.AVI</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/vids_24may/PICT0003.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <filter id="filter1" in="00:03:46.200" out="00:03:47.167">
+      <property name="start">1</property>
+      <property name="level">0=1; 29=0</property>
+      <property name="mlt_service">brightness</property>
+      <property name="shotcut:filter">fadeOutBrightness</property>
+      <property name="alpha">1</property>
+    </filter>
+  </producer>
+  <tractor id="tractor6" title="Anonymous Submission" global_feed="1" in="00:00:00.000" out="00:00:00.667">
+    <property name="shotcut:transition">lumaMix</property>
+    <track producer="producer9" in="00:00:55.000" out="00:00:55.667"/>
+    <track producer="producer10" in="00:03:29.633" out="00:03:30.300"/>
+    <transition id="transition12" out="00:00:00.667">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="factory">loader</property>
+      <property name="mlt_service">luma</property>
+    </transition>
+    <transition id="transition13" out="00:00:00.667">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="start">-1</property>
+      <property name="accepts_blanks">1</property>
+      <property name="mlt_service">mix</property>
+    </transition>
+  </tractor>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer0" in="00:00:20.500" out="00:00:28.467"/>
+    <entry producer="producer1" in="00:00:28.500" out="00:00:58.100"/>
+    <entry producer="tractor0" in="00:00:00.000" out="00:00:00.700"/>
+    <entry producer="producer2" in="00:01:01.333" out="00:01:53.233"/>
+    <entry producer="producer3" in="00:01:53.267" out="00:02:19.633"/>
+    <entry producer="producer4" in="00:02:19.667" out="00:02:33.067"/>
+    <entry producer="tractor1" in="00:00:00.000" out="00:00:00.667"/>
+    <entry producer="producer5" in="00:00:37.133" out="00:01:15.100"/>
+    <entry producer="tractor2" in="00:00:00.000" out="00:00:00.500"/>
+    <entry producer="producer6" in="00:01:18.267" out="00:01:46.233"/>
+    <entry producer="tractor3" in="00:00:00.000" out="00:00:00.300"/>
+    <entry producer="producer7" in="00:02:39.400" out="00:02:46.400"/>
+    <entry producer="tractor4" in="00:00:00.000" out="00:00:00.367"/>
+    <entry producer="producer8" in="00:03:00.267" out="00:03:04.100"/>
+    <entry producer="tractor5" in="00:00:00.000" out="00:00:00.200"/>
+    <entry producer="producer9" in="00:00:47.433" out="00:00:54.967"/>
+    <entry producer="tractor6" in="00:00:00.000" out="00:00:00.667"/>
+    <entry producer="producer10" in="00:03:30.333" out="00:03:47.167"/>
+    <filter id="filter2" out="00:10:00.400">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvWatermark</property>
+      <property name="resource">plain:C:/Program Files/Shotcut/share/shotcut/qml/filters/kappa_fpv_watermark/watermark.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </playlist>
+  <producer id="producer11" title="Anonymous Submission" in="00:00:00.000" out="00:03:55.867">
+    <property name="length">00:03:55.900</property>
+    <property name="eof">pause</property>
+    <property name="resource">/C:/Users/b2026369/Desktop/Foreground Eclipse - Calm Eyes Fixed On Me Screaming.mp3</property>
+    <property name="audio_index">0</property>
+    <property name="video_index">-1</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="ignore_points">0</property>
+    <property name="shotcut:caption">Foreground Eclipse - Calm Eyes Fixed On Me Screaming.mp3</property>
+    <property name="shotcut:detail">/C:/Users/b2026369/Desktop/Foreground Eclipse - Calm Eyes Fixed On Me Screaming.mp3</property>
+    <property name="shotcut:comment"></property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <entry producer="producer11" in="00:00:01.533" out="00:03:55.867"/>
+    <filter id="filter3">
+      <property name="window">75</property>
+      <property name="max_gain">20dB</property>
+      <property name="mlt_service">volume</property>
+      <property name="gain">0.707946</property>
+    </filter>
+  </playlist>
+  <tractor id="tractor7" title="Shotcut version 17.01.02" global_feed="1" in="00:00:00.000" out="00:03:54.333">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.142013</property>
+    <property name="shotcut:trackHeight">30</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="audio"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition14">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition15">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="version">0.9</property>
+      <property name="mlt_service">frei0r.cairoblend</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition16">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
