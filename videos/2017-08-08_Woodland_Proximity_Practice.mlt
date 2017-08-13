@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mlt LC_NUMERIC="en_GB.UTF-8" version="6.5.0" title="Shotcut version 17.06.01" producer="main bin">
+  <profile description="HD 1080p 25 fps" width="1920" height="1080" progressive="1" sample_aspect_num="1" sample_aspect_den="1" display_aspect_num="16" display_aspect_den="9" frame_rate_num="30" frame_rate_den="1" colorspace="709"/>
+  <producer id="producer0" title="Anonymous Submission" in="00:00:00.000" out="00:01:33.467">
+    <property name="length">00:01:33.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0011.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f8a155566ab5c7226425fddab2393360</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer1" title="Anonymous Submission" in="00:00:00.000" out="00:03:35.333">
+    <property name="length">00:03:35.367</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0012.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">92115a054ff381234e614c6b4d4de8bc</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer2" title="Anonymous Submission" in="00:00:00.000" out="00:02:17.867">
+    <property name="length">00:02:17.900</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0013.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f38c2f8f0027ae3ad72520c53c112c64</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer3" title="Anonymous Submission" in="00:00:00.000" out="00:01:21.733">
+    <property name="length">00:01:21.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0014.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c5dd2e1772839a992a2757d26d52bad3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <producer id="producer4" title="Anonymous Submission" in="00:00:00.000" out="00:00:40.433">
+    <property name="length">00:00:40.467</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0015.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">b2c707ea063e1934cb08c3274abc6088</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+  </producer>
+  <playlist id="main bin" title="Shotcut version 17.06.01">
+    <property name="xml_retain">1</property>
+    <entry producer="producer0" in="00:00:00.000" out="00:01:33.467"/>
+    <entry producer="producer1" in="00:00:00.000" out="00:03:35.333"/>
+    <entry producer="producer2" in="00:00:00.000" out="00:02:17.867"/>
+    <entry producer="producer3" in="00:00:00.000" out="00:01:21.733"/>
+    <entry producer="producer4" in="00:00:00.000" out="00:00:40.433"/>
+  </playlist>
+  <producer id="black" in="00:00:00.000" out="00:04:04.933">
+    <property name="length">00:04:04.967</property>
+    <property name="eof">pause</property>
+    <property name="resource">black</property>
+    <property name="aspect_ratio">1</property>
+    <property name="mlt_service">color</property>
+    <property name="set.test_audio">0</property>
+  </producer>
+  <playlist id="background">
+    <entry producer="black" in="00:00:00.000" out="00:04:04.933"/>
+  </playlist>
+  <producer id="producer5" title="Anonymous Submission" in="00:00:00.000" out="00:01:33.467">
+    <property name="length">00:01:33.500</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0011.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f8a155566ab5c7226425fddab2393360</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">PICT0011.AVI</property>
+    <property name="shotcut:detail">/home/dan/VIDS/fatsharks_2017-08-10/PICT0011.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <producer id="producer6" title="Anonymous Submission" in="00:00:00.000" out="00:03:35.333">
+    <property name="length">00:03:35.367</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0012.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">92115a054ff381234e614c6b4d4de8bc</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">PICT0012.AVI</property>
+    <property name="shotcut:detail">/home/dan/VIDS/fatsharks_2017-08-10/PICT0012.AVI</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer7" title="Anonymous Submission" in="00:00:00.000" out="00:02:17.867">
+    <property name="length">00:02:17.900</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0013.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">f38c2f8f0027ae3ad72520c53c112c64</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">PICT0013.AVI</property>
+    <property name="shotcut:detail">/home/dan/VIDS/fatsharks_2017-08-10/PICT0013.AVI</property>
+    <property name="shotcut:comment"></property>
+  </producer>
+  <producer id="producer8" title="Anonymous Submission" in="00:00:00.000" out="00:01:21.733">
+    <property name="length">00:01:21.767</property>
+    <property name="eof">pause</property>
+    <property name="resource">/home/dan/VIDS/fatsharks_2017-08-10/PICT0014.AVI</property>
+    <property name="audio_index">1</property>
+    <property name="video_index">0</property>
+    <property name="mute_on_pause">0</property>
+    <property name="mlt_service">avformat-novalidate</property>
+    <property name="seekable">1</property>
+    <property name="aspect_ratio">1</property>
+    <property name="shotcut:hash">c5dd2e1772839a992a2757d26d52bad3</property>
+    <property name="global_feed">1</property>
+    <property name="xml">was here</property>
+    <property name="shotcut:caption">PICT0014.AVI</property>
+    <property name="shotcut:detail">/home/dan/VIDS/fatsharks_2017-08-10/PICT0014.AVI</property>
+    <property name="shotcut:comment"></property>
+    <property name="movit.convert.width">1920</property>
+    <property name="movit.convert.height">1080</property>
+    <property name="movit.convert.format">1</property>
+  </producer>
+  <playlist id="playlist0">
+    <property name="shotcut:video">1</property>
+    <property name="shotcut:name">V1</property>
+    <entry producer="producer5" in="00:00:04.933" out="00:00:22.267"/>
+    <entry producer="producer6" in="00:00:03.467" out="00:00:45.100"/>
+    <entry producer="producer7" in="00:00:06.633" out="00:02:17.867"/>
+    <entry producer="producer8" in="00:00:25.367" out="00:01:20.000"/>
+    <filter id="filter0" out="00:04:04.933">
+      <property name="mlt_service">webvfx</property>
+      <property name="shotcut:filter">webvfxKappaFpvWatermark</property>
+      <property name="resource">plain:/home/dan/.local/Shotcut/Shotcut.app/share/shotcut/qml/filters/kappa_fpv_watermark/watermark.html</property>
+      <property name="factory">loader</property>
+    </filter>
+  </playlist>
+  <playlist id="playlist1">
+    <property name="shotcut:audio">1</property>
+    <property name="shotcut:name">A1</property>
+    <blank length="00:00:00.033"/>
+  </playlist>
+  <tractor id="tractor0" title="Shotcut version 17.06.01" global_feed="1" in="00:00:00.000" out="00:04:04.933">
+    <property name="shotcut">1</property>
+    <property name="shotcut:scaleFactor">0.135</property>
+    <property name="shotcut:trackHeight">30</property>
+    <track producer="background"/>
+    <track producer="playlist0" hide="audio"/>
+    <track producer="playlist1" hide="video"/>
+    <transition id="transition0">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+    <transition id="transition1">
+      <property name="a_track">0</property>
+      <property name="b_track">1</property>
+      <property name="mlt_service">movit.overlay</property>
+      <property name="disable">1</property>
+    </transition>
+    <transition id="transition2">
+      <property name="a_track">0</property>
+      <property name="b_track">2</property>
+      <property name="mlt_service">mix</property>
+      <property name="always_active">1</property>
+      <property name="sum">1</property>
+    </transition>
+  </tractor>
+</mlt>
